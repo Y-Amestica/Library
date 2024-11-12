@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 public class Book {
     private String isbn;

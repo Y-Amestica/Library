@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 public class Teacher extends User {
     private String profession;

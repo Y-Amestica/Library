@@ -3,8 +3,8 @@ package com.yazmin;
 import static org.mockito.Mockito.*;
 import static org.junit.Assert.*;
 
-import com.Book;
-import com.BookDAO;
+import com.UniversityLibrary.Book;
+import com.UniversityLibrary.BookDAO;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.*;

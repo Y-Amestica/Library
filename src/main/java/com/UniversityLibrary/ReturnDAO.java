@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,6 +11,11 @@ public class ReturnDAO {
         this.returns = new ArrayList<>();
         // Add some test data
         returns.add(new Return("Yazmin", "12.458.358-1", new Date()));
+    }
+
+    public double calculateFine(Loan loan, double pricePerDay){
+        int delayDays = loan.calculateDelayDays();
+        return delayDays * pricePerDay;
     }
 
     // Obtiene una devolución por ISBN y ID de usuario

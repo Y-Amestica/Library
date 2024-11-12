@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 public abstract class User {
     private String name;

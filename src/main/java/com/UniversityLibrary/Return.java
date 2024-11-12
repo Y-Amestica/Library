@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 import java.util.Date;
 
@@ -15,10 +15,10 @@ public class Return {
     }
 
     //Metodos para Calcular Multa
-    public double calculateFine(Loan loan, double pricePerDay){
-        int delayDays = loan.calculateDelayDays();
-        return delayDays * pricePerDay;
-    }
+    //public double calculateFine(Loan loan, double pricePerDay){
+      //  int delayDays = loan.calculateDelayDays();
+     //   return delayDays * pricePerDay;
+    //}
 
     public String getIsbn() {
         return isbn;

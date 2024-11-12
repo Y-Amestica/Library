@@ -1,4 +1,4 @@
-package com;
+package com.UniversityLibrary;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +13,8 @@ public class UserDAO {
     public UserDAO(){
         this.users = new ArrayList<>();
         //Add some test data
-        users.add(new Student("Yazmin", "12.458.358-1", "F", "Computer Science"));
-        users.add(new Teacher("Roberto", "9.852.458-2", "M", "Accountant"));
+        users.add(new Student("Yazmin", "12.458.358-1", 'F', "Computer Science"));
+        users.add(new Teacher("Roberto", "9.852.458-2", 'M', "Accountant"));
     }
     // Obtiene un usuario por su ID
     public User getUserById(String id){
