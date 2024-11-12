@@ -1,3 +1,5 @@
+package com;
+
 public abstract class User {
     private String name;
     private String id;

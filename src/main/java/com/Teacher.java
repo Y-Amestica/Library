@@ -1,3 +1,5 @@
+package com;
+
 public class Teacher extends User {
     private String profession;
 

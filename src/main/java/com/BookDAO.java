@@ -1,6 +1,6 @@
+package com;
+
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class BookDAO {
     private Connection connection;

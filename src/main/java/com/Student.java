@@ -1,3 +1,5 @@
+package com;
+
 public class Student extends User {
     private String career;
 
