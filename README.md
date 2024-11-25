@@ -21,15 +21,15 @@ The primary goals of the Library Management Application project are to:
 
 The Library Management Application includes the following key features:
 
-1. **com.UniversityLibrary.User Management**:
+1. **com.Library.User Management**:
    - Registration and authentication of library users (students, faculty, and staff).
    - Role-based access control to differentiate between normal users and administrators.
 
-2. **com.UniversityLibrary.Book Management**:
+2. **com.Library.Book Management**:
    - Adding, updating, and removing books from the library collection.
    - Searching for books by title, author, genre, and other attributes.
 
-3. **com.UniversityLibrary.Loan Management**:
+3. **com.Library.Loan Management**:
    - Issuing and returning books.
    - Tracking due dates and overdue fines.
 

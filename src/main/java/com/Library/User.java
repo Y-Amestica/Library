@@ -1,15 +1,22 @@
-package com.UniversityLibrary;
+package com.Library;
 
 public abstract class User {
     private String name;
     private String id;
     private char gender;
 
+    public abstract void borrowBook (Book book);
+    public abstract void returnBook (Loan loan);
+
+
     //Constructor
     public User(String name, String id, char gender){
         this.name = name;
         this.id = id;
         this.gender = gender;
+    }
+
+    public User(String id) {
     }
 
     public String getName() {
