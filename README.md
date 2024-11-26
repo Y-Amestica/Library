@@ -1,7 +1,3 @@
-Here is a README for your project, tailored for GitHub:
-
----
-
 # Simple Library Management System
 
 ## Overview
